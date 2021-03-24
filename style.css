@@ -1,0 +1,65 @@
+.wrapper .btn {
+  text-align: center;
+  font-size: 30px;
+  font-family : Audiowide;
+  margin-left: 30%;
+  
+}
+
+.img-area {
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img {
+  
+  padding: 0 20px 20px;
+ 
+}
+
+img,p {
+   width: 400px;
+  height: 200px;
+}
+
+.video {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#text-hide{
+  display: none;
+}
+
+#text-hide-two {
+  display: none;
+}
+
+
+#gone {
+display: none;
+}
+
+#text-gone {
+  display: none;
+}
+
+#image-hide {
+display: none;
+}
+
+.video p {
+  position: relative;
+  
+  bottom: 250px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
